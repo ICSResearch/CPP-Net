@@ -43,3 +43,13 @@ The model parameters will be saved under the name "checkpoint-{model}-{cs_ratio}
 ## Requirements
 - Python == 3.10.12
 - Pytorch == 1.12.0
+
+## Citation
+```
+@inproceedings{guoCPPNet2024,
+  title={CPP-Net: Embracing Multi-Scale Feature Fusion into Deep Unfolding CP-PPA Network for Compressive Sensing},
+  author={Guo, Zhen and Gan, Hongping},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2024}
+}
+```
