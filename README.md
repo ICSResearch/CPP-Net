@@ -37,6 +37,9 @@ Replace the options "data_path" and "eval_data_path" with the path to the train 
 
 The model parameters will be saved under the name "checkpoint-{model}-{cs_ratio}-best.pth" in the ". /model" folder.
 
+## Pretrained Models
+- [Baidu Drive](https://pan.baidu.com/s/1Na4uATo8B2E_5zwYut6itw?pwd=d3y7)
+
 ## Requirements
 - Python == 3.10.12
 - Pytorch == 1.12.0
