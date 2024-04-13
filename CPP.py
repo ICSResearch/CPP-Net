@@ -334,7 +334,7 @@ class CPP(torch.nn.Module):
         return xk
 
     def load_sampling_matrix(self):
-        path = "../data/sampling_matrix"
+        path = "./data/sampling_matrix"
         data = np.load(f"{path}/{self.ratio}_{self.block_size}.npy")
         return data
 
