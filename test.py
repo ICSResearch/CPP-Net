@@ -33,7 +33,7 @@ def main(args):
     ext = {"/*.jpg", "/*.png", "/*.tif", "/*.bmp"}
     filepaths = []
     test_name = args.dataset
-    test_dir = os.path.join("../data", test_name)
+    test_dir = os.path.join("./data", test_name)
 
     for img_type in ext:
         filepaths = filepaths + glob.glob(test_dir + img_type)
