@@ -1,4 +1,4 @@
-# CPP-Net: Embracing Multi-Scale Feature Fusion into Deep Unfolding CP-PPA Network for Compressive Sensing
+# [CPP-Net: Embracing Multi-Scale Feature Fusion into Deep Unfolding CP-PPA Network for Compressive Sensing](https://openaccess.thecvf.com/content/CVPR2024/html/Guo_CPP-Net_Embracing_Multi-Scale_Feature_Fusion_into_Deep_Unfolding_CP-PPA_Network_CVPR_2024_paper.html)
 
 ## Abstract
 
@@ -53,3 +53,5 @@ The model parameters will be saved under the name "checkpoint-{model}-{cs_ratio}
   year={2024}
 }
 ```
+## Acknowledge
+This work is based on the awesome work [ConvNeXt](https://github.com/facebookresearch/ConvNeXt).
