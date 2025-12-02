@@ -15,7 +15,12 @@ Extensive experiments demonstrate that CPP-Net effectively reduces distortion an
 python test.py --model=cpp8 --cs_ratio=10 --dataset=Set11
 ```
 Place the test dataset into the "./data/" folder and replace the option "dataset" with the name of the test dataset.
+./data/Set11/
+    01.png
+    02.png
+    ...
 
+Then replace the argument `--dataset` with your dataset name (e.g., Set11).
 The results.csv and reconstructed images will be generated in the folder "./results/{model}/{dataset}/{cs_ratio}/".
 
 The results.csv will save the results in "{image name},{PSNR (dB)},{SSIM},{LPIPS}" format.
